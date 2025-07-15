@@ -2,6 +2,31 @@
   text-align: center;
 }
 
+body {
+  background-color: #333; /*Gray background from your website*/
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  line-height: 1.3;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+input[type="submit"] {
+  background-color: #56acbd; /*Blue also from your website */
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  font-size: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
